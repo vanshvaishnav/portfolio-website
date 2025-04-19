@@ -6,6 +6,70 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Your Name - Web Developer</title>
   <link rel="stylesheet" href="style.css" />
+  <style>
+    * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #f9f9f9;
+  color: #333;
+  padding: 20px;
+  line-height: 1.6;
+}
+
+nav {
+  background: #007BFF;
+  padding: 10px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+section {
+  margin-bottom: 40px;
+  padding: 0 10px;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+h2 {
+  color: #007BFF;
+  margin-bottom: 10px;
+}
+
+footer {
+  text-align: center;
+  font-size: 0.8rem;
+  color: #777;
+}
+
+  </style>
 </head>
 <body>
 
